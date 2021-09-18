@@ -15,9 +15,7 @@ myForm.addEventListener("submit", function (e) {
       <a href="https://github.com/${search}">
          <img src="${data.avatar_url}"/>
          <span>https://api.github.com/users/${search}</span>
-         
       </a>
-      <span>${data.repos_url}</span>
     `
     });
 
